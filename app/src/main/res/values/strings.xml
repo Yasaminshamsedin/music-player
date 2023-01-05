@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Finalproject</string>
+    <string name="todo">TODO</string>
+    <string name="loading">loading...</string>
+    <string name="loadinga">Loading...</string>
+    <string name="todoa">TODO</string>
+</resources>
