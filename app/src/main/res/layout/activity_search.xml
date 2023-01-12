@@ -4,6 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".Search">
+
+    <RelativeLayout
+        android:layout_width="363dp"
+        android:layout_height="637dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="4dp"
+        android:background="@color/black">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tisearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#090909">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tesearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/layout"
+                android:hint="🔎 Search" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
