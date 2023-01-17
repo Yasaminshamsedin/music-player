@@ -11,4 +11,5 @@ public class Neww extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_neww);
     }
+
 }

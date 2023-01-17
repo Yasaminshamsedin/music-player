@@ -10,11 +10,15 @@ import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
     ImageView btnsearch;
     LinearLayout btnneww;
     LinearLayout btnbest;
     LinearLayout btnday;
     LinearLayout btnweek;
+
+
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         btnweek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent e =new Intent(MainActivity.this,Week.class);
                 startActivity(e);
             }
