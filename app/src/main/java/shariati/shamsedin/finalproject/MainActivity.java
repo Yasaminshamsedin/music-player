@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout btnday;
     LinearLayout btnweek;
 
-
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
