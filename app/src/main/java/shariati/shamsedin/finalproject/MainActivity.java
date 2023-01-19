@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         btnday= findViewById(R.id.btnday);
-        btnbest.setOnClickListener(new View.OnClickListener() {
+        btnday.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent d =new Intent(MainActivity.this,Day.class);

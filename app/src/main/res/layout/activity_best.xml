@@ -8,7 +8,7 @@
     tools:context=".Best">
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/txtactivitybest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="81dp"
@@ -18,14 +18,14 @@
         android:text="The best singers"
         android:textColor="@color/teal_700"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerView3"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerbest"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView3"
+        android:id="@+id/recyclerbest"
         android:layout_width="409dp"
         android:layout_height="668dp"
         android:layout_marginStart="1dp"
@@ -35,5 +35,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/txtactivitybest" />
 </androidx.constraintlayout.widget.ConstraintLayout>

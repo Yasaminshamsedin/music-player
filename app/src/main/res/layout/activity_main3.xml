@@ -18,7 +18,8 @@
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cat"
-        android:contentDescription="TODO" />
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
 
     <LinearLayout
         android:id="@+id/btnneww"

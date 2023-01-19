@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/layout"
-    tools:context=".Best">
+    tools:context=".Neww">
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/txtactivityneww"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="81dp"
@@ -18,14 +18,14 @@
         android:text="The latest songs"
         android:textColor="@color/teal_700"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerView3"
+        app:layout_constraintBottom_toTopOf="@+id/recyclernew"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView3"
+        android:id="@+id/recyclernew"
         android:layout_width="409dp"
         android:layout_height="668dp"
         android:layout_marginStart="1dp"
@@ -35,5 +35,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/txtactivityneww" />
 </androidx.constraintlayout.widget.ConstraintLayout>
