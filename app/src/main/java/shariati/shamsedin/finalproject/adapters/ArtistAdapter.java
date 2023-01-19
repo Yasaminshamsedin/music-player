@@ -32,8 +32,8 @@ public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ArtistView
 
         public ArtistViewHolder(@NonNull View itemView) {
             super(itemView);
-            imgbests = itemView.findViewById(R.id.imgbests);
-            txtname = itemView.findViewById(R.id.txtname);
+            imgbests = itemView.findViewById(R.id.imgArtista);
+            txtname = itemView.findViewById(R.id.txtnamea);
 
         }
     }
@@ -41,7 +41,7 @@ public class ArtistAdapter extends RecyclerView.Adapter<ArtistAdapter.ArtistView
     @NonNull
     @Override
     public ArtistViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new ArtistViewHolder(LayoutInflater.from(context).inflate(R.layout.activity_best, parent, false));
+        return new ArtistViewHolder(LayoutInflater.from(context).inflate(R.layout.artist_view, parent, false));
 
     }
 
