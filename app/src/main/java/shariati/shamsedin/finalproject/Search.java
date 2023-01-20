@@ -36,7 +36,16 @@ public class Search extends AppCompatActivity {
         searchRecycler = findViewById(R.id.searchRecycler);
         error = findViewById(R.id.txterror);
         boxsearch = findViewById(R.id.tesearch);
+        FloatingActionButton btnSearch = findViewById(R.id.btnsearchs);
 
+        btnSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Search.this, Search.class);
+                intent.putExtra("query",boxsearch.getText().toString());
+                startActivity(intent);
+            }
+        });
 
         searchRecycler.setLayoutManager(new GridLayoutManager(this,2));
         Bundle extras = getIntent().getExtras();

@@ -28,15 +28,14 @@ public class Day extends AppCompatActivity {
         txterrord = findViewById(R.id.txterrord);
 
         LinearLayoutManager layoutManager
-                = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+                = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerday.setLayoutManager(layoutManager);
 
         RequestManager manager = new RequestManager(this);
         SongListRequestListener todayListener = new SongListRequestListener() {
             @Override
             public void didFetch(SongResponse response) {
-                recyclerday.setAdapter(new SongAdapter(Day.this, response.getResults(),
-                        new SongAdapter.ClickListener() {
+                recyclerday.setAdapter(new SongAdapter(Day.this, response.getResults(),new SongAdapter.ClickListener() {
                             @Override
                             public void onSongClick(int position, View v, String id) {
                                 Intent intent = new Intent(Day.this, song.class);

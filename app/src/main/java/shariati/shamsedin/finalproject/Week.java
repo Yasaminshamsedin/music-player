@@ -26,7 +26,7 @@ public class Week extends AppCompatActivity {
         error = findViewById(R.id.txterrorw);
 
         LinearLayoutManager layoutManager1
-                = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+                = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerweek.setLayoutManager(layoutManager1);
 
         RequestManager manager = new RequestManager(this);

@@ -29,7 +29,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tisearch"
-            android:layout_width="match_parent"
+            android:layout_width="328dp"
             android:layout_height="70dp"
             android:textColorHint="@color/white">
 
@@ -42,6 +42,15 @@
                 android:textSize="23dp" />
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnsearchs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/search" />
 
     </RelativeLayout>
 
